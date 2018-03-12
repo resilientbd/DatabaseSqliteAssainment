@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/jahid"
+    android:layout_height="match_parent"
+    tools:context="com.tajal.user.databasesqliteassainment.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO TEACHER APPLICATION"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+
+        >
+
+        <EditText
+            android:layout_margin="2sp"
+            android:id="@+id/tajal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID  :"
+            android:textColor="@color/tajal"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_margin="2sp"
+            android:id="@+id/sopnil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Student Name  :"
+            android:textColor="@color/tajal"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_margin="2sp"
+            android:id="@+id/ridoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Atendanc:"
+            android:textColor="@color/tajal"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_margin="2sp"
+            android:id="@+id/royet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Date   /  /  /"
+            android:textColor="@color/tajal"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:id="@+id/kajal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Submit"
+         android:layout_margin="10sp"
+         android:textSize="20sp"
+
+         />
+     <Button
+         android:id="@+id/jahid"
+         android:layout_margin="10sp"
+         android:layout_width="wrap_content"
+         android:textSize="20sp"
+         android:onClick="viewdata"
+         android:layout_height="wrap_content"
+         android:text="View"
+
+         tools:ignore="OnClick" />
+ </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/Sabina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waiting for your saving data"
+
+
+            />
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

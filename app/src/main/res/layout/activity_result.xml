@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tajal.user.databasesqliteassainment.ResultActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!!! PLEASE ENTER NUMBER"
+
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CLASSTEST"
+            />
+         <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="MID XM"
+            />
+         <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="FINAL XM"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=":CGPA:"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_marginLeft="150dp"
+        android:text="VIEW RESULT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
